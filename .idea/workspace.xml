@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fef063c0-29e8-4685-adab-369f46e0e12b" name="Changes" comment="" />
+    <list default="true" id="fef063c0-29e8-4685-adab-369f46e0e12b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UtilizandoMock.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/guikapp/dao/ClienteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/guikapp/dao/ClienteDaoMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/guikapp/dao/IClienteDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/guikapp/dao/IContratoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/guikapp/mocks/ContratoDaoMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/guikapp/service/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/br/com/guikapp/ClienteServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/br/com/guikapp/ContratoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/br/com/guikapp/dao/ContratoDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/br/com/guikapp/service/AllTeste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/br/com/guikapp/service/ContratoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/br/com/guikapp/service/IContratoService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,10 +50,96 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "onboarding.tips.debug.path": "C:/Users/guilh/Projetos ebac/Módulo 23 e 24/ExemplosMod23-24/Mock/UtilizandoMock/src/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.guikapp.dao" />
+      <recent name="br.com.guikapp.service" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.guikapp.dao" />
+      <recent name="br.com.guikapp.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AllTeste">
+    <configuration name="AllTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UtilizandoMock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.guikapp.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.guikapp.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.guikapp.service.AllTeste" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UtilizandoMock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.guikapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.guikapp" />
+      <option name="MAIN_CLASS_NAME" value="br.com.guikapp.ClienteServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContratoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UtilizandoMock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.guikapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.guikapp" />
+      <option name="MAIN_CLASS_NAME" value="br.com.guikapp.ContratoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContratoServiceTest.salvarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UtilizandoMock" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.guikapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.guikapp" />
+      <option name="MAIN_CLASS_NAME" value="br.com.guikapp.ContratoServiceTest" />
+      <option name="METHOD_NAME" value="salvarTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AllTeste" />
+        <item itemvalue="JUnit.ContratoServiceTest" />
+        <item itemvalue="JUnit.ContratoServiceTest.salvarTest" />
+        <item itemvalue="JUnit.ClienteServiceTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,5 +161,16 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UtilizandoMock$ContratoServiceTest.ic" NAME="ContratoServiceTest Coverage Results" MODIFIED="1697590606259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.guikapp.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UtilizandoMock$AllTeste.ic" NAME="AllTeste Coverage Results" MODIFIED="1697590838411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.guikapp.service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UtilizandoMock$ClienteServiceTest.ic" NAME="ClienteServiceTest Coverage Results" MODIFIED="1697588363093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>br.com.guikapp.*</FILTER>
+    </SUITE>
   </component>
 </project>
